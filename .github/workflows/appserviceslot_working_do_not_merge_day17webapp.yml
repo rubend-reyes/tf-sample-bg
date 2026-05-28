@@ -50,7 +50,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
         with:
-          app-name: 'day17webapp'
+          app-name: 'eastus-app-sbx-wap-01'
           slot-name: 'Production'
           package: .
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D626A2FC2F5C41F694FCB93C8242CA76 }}
